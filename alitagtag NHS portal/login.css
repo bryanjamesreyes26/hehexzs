@@ -9,7 +9,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url("/images/header.jpg");
+    background-image: url("/images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,7 +30,7 @@ body{
     width: 100%;
     height: 100px;
     line-height: 100px;
-    background: linear-gradient(rgba(39,39,39, 0.6), transparent);
+    background-color: linear-gradient(rgba(39,39,39, 0.6), transparent);
     z-index: 100;
 }
 .nav-logo p{
@@ -46,34 +46,35 @@ body{
 .nav-menu ul li .link{
     text-decoration: none;
     font-weight: 500;
-    color: #1e5aed;
+    color:  #355E3B;
     padding-bottom: 15px;
     margin: 0 25px;
 }
 .link:hover, .active{
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #355E3B;
 }
 .nav-button .btn{
     width: 147px;
     height: 40px;
     font-weight: 500;
-    background: rgba(255, 255, 255, 0.4);
+    background: #355E3B;
+    color: #fff;
     border: none;
     border-radius: 15px;
     cursor: pointer;
     transition: .3s ease;
 }
 .btn:hover{
-    background: rgba(255, 255, 255, 0.3);
+    background: #4B6F44;
 }
 #registerBtn{
     margin-left: 15px;
 }
 .btn.white-btn{
-    background: rgba(255, 255, 255, 0.7);
+    background: #355E3B;
 }
 .btn.btn.white-btn:hover{
-    background: rgba(255, 255, 255, 0.5);
+    background: #4B6F44;
 }
 .nav-menu-btn{
     display: none;
@@ -105,7 +106,7 @@ body{
     transition: .5s ease-in-out;
 }
 .top span{
-    color: #fff;
+    color:  #355E3B;
     font-size: small;
     padding: 10px 0;
     display: flex;
@@ -117,7 +118,7 @@ body{
     margin-left: 5px;
 }
 header{
-    color: #fff;
+    color:  #355E3B;
     font-size: 30px;
     text-align: center;
     padding: 10px 0 30px 0;
@@ -153,7 +154,7 @@ header{
 .submit {
     border: none;
     outline: none;
-    background-color: royalblue;
+    background-color:  #355E3B;
     padding: 10px;
     width: 100%;
     border-radius: 10px;
@@ -163,10 +164,10 @@ header{
   }
   
   .submit:hover {
-    background-color: rgb(56, 90, 194);
+    background-color: #4B6F44;
   }
   
-
+  
 .two-col{
     display: flex;
     justify-content: space-between;
